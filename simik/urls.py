@@ -1,9 +1,9 @@
 from django.urls import path
 
-from practiceProject.simik import views
+from .views import index
 
 urlpatterns = [
-    path('', views.index, name='broSimik'),
+    path('', index, name='broSimik'),
 ]
 
 # Жёсткая жопа
